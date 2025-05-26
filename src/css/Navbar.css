@@ -1,0 +1,36 @@
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 80px;
+}
+nav .logo {
+  text-decoration: none;
+  font-size: 3rem;
+  font-weight: 1000;
+  color: white;
+  transition: 0.3s;
+}
+nav .logo span {
+  color: #ff6b35;
+}
+nav .logo:hover {
+  color: #ff6b35;
+}
+nav .links {
+  display: flex;
+  gap: 20px;
+}
+nav .links a {
+  text-align: center;
+  color: white;
+  width: 90px;
+  font-weight: 600;
+  text-decoration: none;
+  transition: 0.3s;
+}
+nav .links a:hover {
+  color: #ff6b35;
+  scale: 1.2;
+  letter-spacing: 0.15rem;
+}

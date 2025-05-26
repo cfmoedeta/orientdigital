@@ -5,7 +5,8 @@ export default function Navbar() {
   return (
     <nav className="fit-body">
       <Link className="logo" href={"/"}>
-        <span>X</span> Media
+        <img src="/x-logo.png" alt="x-media-logo" />
+        Media
       </Link>
       <div className="links">
         <Link href={"/#about"}>About</Link>

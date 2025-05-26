@@ -5,16 +5,21 @@ nav {
   justify-content: space-between;
   height: 80px;
   .logo {
+    display: flex;
+    align-items: center;
+    img {
+      width: 30px;
+    }
     text-decoration: none;
-    font-size: 3rem;
+    font-size: 2rem;
     font-weight: 1000;
     color: white;
     transition: 0.3s;
     span {
-      color: $primary-orange;
+      color: $mint-green;
     }
     &:hover {
-      color: $primary-orange;
+      color: $mint-green;
     }
   }
   .links {
@@ -28,7 +33,7 @@ nav {
       text-decoration: none;
       transition: 0.3s;
       &:hover {
-        color: $primary-orange;
+        color: $mint-green;
         scale: 1.2;
         letter-spacing: 0.15rem;
       }

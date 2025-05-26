@@ -5,17 +5,22 @@ nav {
   height: 80px;
 }
 nav .logo {
+  display: flex;
+  align-items: center;
   text-decoration: none;
-  font-size: 3rem;
+  font-size: 2rem;
   font-weight: 1000;
   color: white;
   transition: 0.3s;
 }
+nav .logo img {
+  width: 30px;
+}
 nav .logo span {
-  color: #ff6b35;
+  color: #34d399;
 }
 nav .logo:hover {
-  color: #ff6b35;
+  color: #34d399;
 }
 nav .links {
   display: flex;
@@ -30,7 +35,7 @@ nav .links a {
   transition: 0.3s;
 }
 nav .links a:hover {
-  color: #ff6b35;
+  color: #34d399;
   scale: 1.2;
   letter-spacing: 0.15rem;
 }

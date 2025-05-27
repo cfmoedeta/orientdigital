@@ -25,6 +25,7 @@
   z-index: 1;
 }
 .hero-section .hero-text img {
+  margin-left: 10px;
   width: 50px;
 }
 .hero-section .sec-text {

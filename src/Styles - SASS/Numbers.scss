@@ -1,0 +1,25 @@
+@use "variables.scss" as *;
+.numbers-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 3rem;
+  margin: 40px auto;
+  .number-card {
+    // background: rgba(255, 255, 255, 0.05);
+    padding: 2rem;
+    border-radius: 12px;
+    text-align: center;
+    color: white;
+    width: 300px;
+    h1 {
+      font-size: 6rem;
+      color: $mint-green;
+      margin: 0rem;
+    }
+    p {
+      font-size: 2rem;
+    }
+  }
+}

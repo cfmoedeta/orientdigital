@@ -1,0 +1,23 @@
+.numbers-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 3rem;
+  margin: 40px auto;
+}
+.numbers-section .number-card {
+  padding: 2rem;
+  border-radius: 12px;
+  text-align: center;
+  color: white;
+  width: 300px;
+}
+.numbers-section .number-card h1 {
+  font-size: 6rem;
+  color: #34d399;
+  margin: 0rem;
+}
+.numbers-section .number-card p {
+  font-size: 2rem;
+}

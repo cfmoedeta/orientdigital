@@ -1,13 +1,11 @@
 import "@/css/Navbar.css";
 import Link from "next/link";
+import Logo from "./Logo";
 
 export default function Navbar() {
   return (
     <nav className="fit-body">
-      <Link className="logo" href={"/"}>
-        <img src="/x-logo.png" alt="x-media-logo" />
-        Media
-      </Link>
+      <Logo />
       <div className="links">
         <Link href={"/#about"}>About</Link>
         <Link href={"/#talents"}>Talents</Link>

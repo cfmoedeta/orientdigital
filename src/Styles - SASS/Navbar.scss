@@ -4,24 +4,7 @@ nav {
   align-items: center;
   justify-content: space-between;
   height: 80px;
-  .logo {
-    display: flex;
-    align-items: center;
-    img {
-      width: 30px;
-    }
-    text-decoration: none;
-    font-size: 2rem;
-    font-weight: 1000;
-    color: white;
-    transition: 0.3s;
-    span {
-      color: $mint-green;
-    }
-    &:hover {
-      color: $mint-green;
-    }
-  }
+
   .links {
     display: flex;
     gap: 20px;

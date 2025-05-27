@@ -4,24 +4,6 @@ nav {
   justify-content: space-between;
   height: 80px;
 }
-nav .logo {
-  display: flex;
-  align-items: center;
-  text-decoration: none;
-  font-size: 2rem;
-  font-weight: 1000;
-  color: white;
-  transition: 0.3s;
-}
-nav .logo img {
-  width: 30px;
-}
-nav .logo span {
-  color: #34d399;
-}
-nav .logo:hover {
-  color: #34d399;
-}
 nav .links {
   display: flex;
   gap: 20px;

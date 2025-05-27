@@ -1,22 +1,31 @@
 nav {
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  background-color: rgba(0, 0, 0, 0.6);
+  transition: background-color 0.3s ease;
+}
+nav .navbar-content {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  height: 80px;
+  height: 90px;
+  padding: 0 2rem;
 }
-nav .links {
+nav .navbar-content .links {
   display: flex;
   gap: 20px;
 }
-nav .links a {
+nav .navbar-content .links a {
   text-align: center;
+  font-size: 1.2rem;
   color: white;
-  width: 90px;
+  width: 110px;
   font-weight: 600;
   text-decoration: none;
   transition: 0.3s;
 }
-nav .links a:hover {
+nav .navbar-content .links a:hover {
   color: #34d399;
   scale: 1.2;
   letter-spacing: 0.15rem;

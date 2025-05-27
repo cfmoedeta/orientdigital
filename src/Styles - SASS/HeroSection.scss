@@ -1,0 +1,38 @@
+.hero-section {
+  position: relative;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  height: calc(100vh - 90px); // removing navbar height
+  overflow: hidden;
+  &::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background-image: url("/hero-image.webp");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    filter: blur(3px);
+    z-index: -1;
+    transform: scale(1.05);
+  }
+
+  .hero-text {
+    font-size: 4rem;
+    font-weight: 1000;
+    z-index: 1;
+    img {
+      width: 30px;
+    }
+  }
+
+  .sec-text {
+    font-weight: 800;
+    filter: drop-shadow(2px 2px 4px rgba(0, 0, 0, 0.7));
+    font-size: 2rem;
+    text-align: center;
+    z-index: 1;
+  }
+}

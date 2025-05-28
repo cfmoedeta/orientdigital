@@ -22,3 +22,8 @@ html {
   text-transform: uppercase;
   text-align: center;
 }
+@media (max-width: 1000px) {
+  .fit-body {
+    width: 90%;
+  }
+}

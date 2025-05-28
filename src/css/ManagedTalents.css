@@ -11,8 +11,14 @@
 .talents .talents-container .talent-card {
   display: flex;
   perspective: 1000px;
-  width: 300px;
-  height: 300px;
+  width: 350px;
+  height: 350px;
+}
+@media (max-width: 1850px) {
+  .talents .talents-container .talent-card {
+    width: 300px;
+    height: 300px;
+  }
 }
 @media (max-width: 1580px) {
   .talents .talents-container .talent-card {

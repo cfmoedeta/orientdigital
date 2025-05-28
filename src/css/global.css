@@ -20,6 +20,7 @@ html {
 
 .main-heading {
   font-size: 3rem;
+  font-weight: 1000;
   text-transform: uppercase;
   text-align: center;
 }

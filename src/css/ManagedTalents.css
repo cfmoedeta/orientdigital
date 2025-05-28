@@ -1,0 +1,53 @@
+.talents {
+  margin: 50px auto;
+}
+.talents .talents-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+}
+.talents .talents-container .talent-card {
+  display: flex;
+  perspective: 1000px;
+  width: 350px;
+  height: 350px;
+}
+.talents .talents-container .talent-card .card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  transition: transform 0.6s;
+  transform-style: preserve-3d;
+}
+.talents .talents-container .talent-card:hover .card-inner {
+  transform: rotateY(180deg);
+}
+.talents .talents-container .talent-card .card-front,
+.talents .talents-container .talent-card .card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 12px;
+  backface-visibility: hidden;
+  overflow: hidden;
+}
+.talents .talents-container .talent-card .card-front img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: 0.3s;
+}
+.talents .talents-container .talent-card .card-front img:hover {
+  filter: grayscale(0%);
+}
+.talents .talents-container .talent-card .card-back {
+  background-color: #202022;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  transform: rotateY(180deg);
+}

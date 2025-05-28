@@ -70,7 +70,7 @@ export default function ManagedTalents() {
           <div key={talent.name} className="talent-card">
             <div className="card-inner">
               <div className="card-front">
-                <img src={talent.image} alt={talent.name} />
+                <img src={talent.image} alt={talent.name} loading="lazy" />
               </div>
               <div className="card-back">
                 <h1>{talent.name}</h1>

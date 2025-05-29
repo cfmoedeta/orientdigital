@@ -1,0 +1,117 @@
+@use "variables.scss" as *;
+.contact {
+  display: flex;
+  flex-direction: column;
+  background-color: $mint-green;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+  border: 2px solid $orange;
+  border-radius: 12px;
+  box-shadow: 10px 10px 0 hsl(0, 0%, 20%);
+  margin: 50px auto;
+  max-width: 800px;
+  box-sizing: border-box;
+  h1,
+  p {
+    color: black;
+    font-weight: 1000;
+    font-size: 2rem;
+    text-align: center;
+  }
+  p {
+    margin: 0;
+    font-size: 1.2rem;
+    @media (max-width: 570px) {
+      font-size: 1rem;
+    }
+  }
+  .contact-form {
+    width: 100%;
+    font-size: 1.3rem;
+    display: flex;
+    flex-direction: column;
+    @media (max-width: 570px) {
+      label {
+        font-size: 1.2rem;
+      }
+    }
+
+    .label-input {
+      display: flex;
+      flex-direction: column;
+      margin: 10px 0;
+      @media (max-width: 570px) {
+        margin: 5px 0;
+      }
+      input {
+        width: 100%;
+        padding: 0.5rem;
+        border-radius: 3px;
+        font-size: 1rem;
+        border: none;
+        outline: 2px solid black;
+        transition: 0.2s;
+        width: calc(100% - 1rem);
+        &:focus {
+          outline: 2px solid $dark-blue;
+        }
+      }
+      textarea {
+        width: 100%;
+        border-radius: 6px;
+        font-size: 1rem;
+        min-height: 100px;
+        padding: 0.5rem;
+        resize: none;
+        overflow-x: hidden;
+        border: none;
+        outline: 2px solid black;
+        transition: 0.2s;
+        width: calc(100% - 1rem);
+        &:focus {
+          outline: 2px solid $dark-blue;
+        }
+      }
+    }
+    .required {
+      color: red;
+    }
+    .required-fields {
+      font-size: 0.8rem;
+      align-self: flex-end;
+    }
+    .error {
+      color: red;
+      margin: 5px 0;
+      font-size: 0.8rem;
+    }
+
+    .submit-button {
+      margin-top: 20px;
+      font-size: 25px;
+      align-self: center;
+      width: 240px;
+      font-weight: 800;
+      color: $orange;
+      padding: 10px;
+      background-color: $dark-blue;
+      border-radius: 6px;
+      cursor: pointer;
+      border: 2px solid $orange;
+      box-shadow: 8px 8px 0 black;
+      transition: 0.2s;
+      &:hover {
+        box-shadow: 3px 3px 0 black;
+        background-color: $bubblegum-pink;
+        color: $dark-blue;
+        border: 2px solid $dark-blue;
+      }
+      @media (max-width: 570px) {
+        font-size: 20px;
+        padding: 5px;
+        width: 200px;
+      }
+    }
+  }
+}

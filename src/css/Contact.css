@@ -1,0 +1,120 @@
+.contact {
+  display: flex;
+  flex-direction: column;
+  background-color: #34d399;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+  border: 2px solid #ff6b35;
+  border-radius: 12px;
+  box-shadow: 10px 10px 0 hsl(0, 0%, 20%);
+  margin: 50px auto;
+  max-width: 800px;
+  box-sizing: border-box;
+}
+.contact h1,
+.contact p {
+  color: black;
+  font-weight: 1000;
+  font-size: 2rem;
+  text-align: center;
+}
+.contact p {
+  margin: 0;
+  font-size: 1.2rem;
+}
+@media (max-width: 570px) {
+  .contact p {
+    font-size: 1rem;
+  }
+}
+.contact .contact-form {
+  width: 100%;
+  font-size: 1.3rem;
+  display: flex;
+  flex-direction: column;
+}
+@media (max-width: 570px) {
+  .contact .contact-form label {
+    font-size: 1.2rem;
+  }
+}
+.contact .contact-form .label-input {
+  display: flex;
+  flex-direction: column;
+  margin: 10px 0;
+}
+@media (max-width: 570px) {
+  .contact .contact-form .label-input {
+    margin: 5px 0;
+  }
+}
+.contact .contact-form .label-input input {
+  width: 100%;
+  padding: 0.5rem;
+  border-radius: 3px;
+  font-size: 1rem;
+  border: none;
+  outline: 2px solid black;
+  transition: 0.2s;
+  width: calc(100% - 1rem);
+}
+.contact .contact-form .label-input input:focus {
+  outline: 2px solid #15265b;
+}
+.contact .contact-form .label-input textarea {
+  width: 100%;
+  border-radius: 6px;
+  font-size: 1rem;
+  min-height: 100px;
+  padding: 0.5rem;
+  resize: none;
+  overflow-x: hidden;
+  border: none;
+  outline: 2px solid black;
+  transition: 0.2s;
+  width: calc(100% - 1rem);
+}
+.contact .contact-form .label-input textarea:focus {
+  outline: 2px solid #15265b;
+}
+.contact .contact-form .required {
+  color: red;
+}
+.contact .contact-form .required-fields {
+  font-size: 0.8rem;
+  align-self: flex-end;
+}
+.contact .contact-form .error {
+  color: red;
+  margin: 5px 0;
+  font-size: 0.8rem;
+}
+.contact .contact-form .submit-button {
+  margin-top: 20px;
+  font-size: 25px;
+  align-self: center;
+  width: 240px;
+  font-weight: 800;
+  color: #ff6b35;
+  padding: 10px;
+  background-color: #15265b;
+  border-radius: 6px;
+  cursor: pointer;
+  border: 2px solid #ff6b35;
+  box-shadow: 8px 8px 0 black;
+  transition: 0.2s;
+}
+.contact .contact-form .submit-button:hover {
+  box-shadow: 3px 3px 0 black;
+  background-color: #fb7185;
+  color: #15265b;
+  border: 2px solid #15265b;
+}
+@media (max-width: 570px) {
+  .contact .contact-form .submit-button {
+    font-size: 20px;
+    padding: 5px;
+    width: 200px;
+  }
+}

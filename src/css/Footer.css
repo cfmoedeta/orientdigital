@@ -1,0 +1,110 @@
+footer {
+  background-color: #202022;
+  padding: 2rem;
+}
+footer .footer-container {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+footer .footer-container .data-contact {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 2rem;
+}
+footer .footer-container .company-data {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 45%;
+}
+footer .footer-container .contact-info {
+  display: flex;
+  flex-direction: column;
+  width: 45%;
+}
+footer .footer-container .contact-info .direct-contact {
+  margin: 0 0 1rem 1.5rem;
+}
+footer .footer-container .contact-info .direct-contact p {
+  color: #ff6b35;
+}
+footer .footer-container .contact-info .social-media-icons {
+  display: flex;
+  align-items: center;
+  gap: 3rem;
+  margin: 0 1.5rem;
+}
+footer .footer-container .contact-info .social-media-icons a {
+  color: white;
+}
+footer .footer-container .contact-info .social-media-icons svg {
+  cursor: pointer;
+  width: 2.5rem;
+  height: 2.5rem;
+  transition: 0.3s;
+}
+footer .footer-container .contact-info .social-media-icons svg:hover {
+  scale: 1.2;
+  letter-spacing: 0.15rem;
+  color: #34d399;
+}
+footer .footer-container .contact-info .site-map {
+  display: flex;
+  align-items: center;
+  margin: 3rem 0 1rem 0;
+  gap: 20px;
+}
+footer .footer-container .contact-info .site-map a {
+  text-align: center;
+  font-size: 1.2rem;
+  color: white;
+  width: 110px;
+  font-weight: 600;
+  text-decoration: none;
+  transition: 0.3s;
+}
+footer .footer-container .contact-info .site-map a:hover {
+  color: white;
+  scale: 1.2;
+  letter-spacing: 0.15rem;
+  color: #34d399;
+}
+footer .footer-container .credit {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+footer .footer-container .credit span {
+  color: #34d399;
+}
+footer .arrow {
+  position: absolute;
+  right: -10%;
+  top: 50%;
+  cursor: pointer;
+  width: 60px;
+  height: 60px;
+  transition: all 0.5s ease;
+  animation: up 1s linear infinite;
+  z-index: 10;
+}
+@media (max-width: 1000px) {
+  footer .arrow {
+    top: 5%;
+    right: -3%;
+  }
+}
+
+.arrow:hover {
+  scale: 1.1;
+}
+
+@keyframes up {
+  from, to {
+    transform: translateY(0%);
+  }
+  50% {
+    transform: translateY(15%);
+  }
+}

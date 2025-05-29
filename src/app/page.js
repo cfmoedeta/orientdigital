@@ -1,4 +1,5 @@
 import Contact from "@/components/Contact";
+import Footer from "@/components/Footer";
 import HeroSection from "@/components/HeroSection";
 import ManagedTalents from "@/components/ManagedTalents";
 import Navbar from "@/components/Navbar";
@@ -14,6 +15,7 @@ export default function Home() {
       <Numbers />
       <ManagedTalents />
       <Contact />
+      <Footer />
     </>
   );
 }

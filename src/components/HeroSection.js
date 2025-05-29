@@ -13,10 +13,10 @@ export default function HeroSection() {
       </h1>
       <p className="sec-text">
         We manage the brightest{" "}
-        <span style={{ color: "#e4011a" }}> artists</span>,
-        <span style={{ color: "#e4011a" }}> actors</span>, and{" "}
-        <span style={{ color: "#e4011a" }}>musicians</span>. <br />
-        Guiding <span style={{ color: "#e4011a" }}>talent</span> to the
+        <span style={{ color: "#ff6b35" }}> artists</span>,
+        <span style={{ color: "#ff6b35" }}> actors</span>, and{" "}
+        <span style={{ color: "#ff6b35" }}>musicians</span>. <br />
+        Guiding <span style={{ color: "#ff6b35" }}>talent</span> to the
         spotlight with strategy, passion, and care.
       </p>
     </main>

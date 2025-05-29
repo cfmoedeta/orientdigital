@@ -63,7 +63,7 @@ export default function ManagedTalents() {
   return (
     <section className="talents fit-body">
       <h1 className="main-heading">
-        Some of the <span style={{ color: "red" }}>Talents</span> We Manage
+        Some of the <span style={{ color: "#ff6b35" }}>Talents</span> We Manage
       </h1>
       <div className="talents-container">
         {talents.map((talent) => (

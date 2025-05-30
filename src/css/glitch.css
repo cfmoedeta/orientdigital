@@ -474,5 +474,6 @@
 @media (max-width: 605px) {
   .hero {
     font-size: clamp(15px, 10vw, 22px);
+    letter-spacing: 0px;
   }
 }

@@ -127,7 +127,7 @@ const sidebarVariants = {
     },
   }),
   closed: {
-    clipPath: "circle(30px at calc(100% - 40px) 40px)",
+    clipPath: "circle(25px at calc(100% - 40px) 40px)",
     transition: {
       delay: 0.2,
       type: "spring",
@@ -149,7 +149,7 @@ const Path = (props) => (
 
 const MenuToggle = ({ toggle }) => (
   <button style={toggleContainer} onClick={toggle}>
-    <svg width="30" height="30" viewBox="0 0 23 23" className="menu-toggler">
+    <svg width="25" height="25" viewBox="0 0 23 23" className="menu-toggler">
       <Path
         stroke="white"
         variants={{
@@ -187,8 +187,8 @@ const container = {
   justifyContent: "flex-end",
   alignItems: "stretch",
   flex: 1,
-  width: 180,
-  top: "10px",
+  width: 150,
+  top: "8px",
   right: "5%",
   zIndex: "99",
   maxWidth: "100%",
@@ -225,12 +225,12 @@ const toggleContainer = {
 const list = {
   listStyle: "none",
   padding: 25,
-  fontSize: "22px",
+  fontSize: "20px",
   margin: 0,
   position: "absolute",
   top: 60,
-  right: -100,
-  width: 230,
+  right: -90,
+  width: 190,
 };
 
 const listItem = {

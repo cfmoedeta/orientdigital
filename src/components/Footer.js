@@ -59,8 +59,8 @@ export default function Footer() {
             </div>
             <div className="site-map">
               <Link href={"/#about"}>About</Link>
-              <Link href={"/#talents"}>Talents</Link>
               <Link href={"/#services"}>Services</Link>
+              <Link href={"/#talents"}>Talents</Link>
               <Link href={"/#contact"}>Contact</Link>
             </div>
           </div>

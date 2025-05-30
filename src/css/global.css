@@ -12,6 +12,13 @@ html {
   scroll-behavior: smooth;
 }
 
+#about,
+#services,
+#talents,
+#contact {
+  scroll-margin-top: 90px;
+}
+
 .fit-body {
   width: 80%;
   max-width: 1600px;

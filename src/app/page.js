@@ -15,19 +15,19 @@ export default function Home() {
       <SectionWrapper>
         <HeroSection />
       </SectionWrapper>
-      <SectionWrapper>
+      <SectionWrapper id="about">
         <About />
       </SectionWrapper>
-      <SectionWrapper>
+      <SectionWrapper id="services">
         <WhatWeDo />
       </SectionWrapper>
       <SectionWrapper>
         <Numbers />
       </SectionWrapper>
-      <SectionWrapper>
+      <SectionWrapper id="talents">
         <ManagedTalents />
       </SectionWrapper>
-      <SectionWrapper>
+      <SectionWrapper id="contact">
         <Contact />
       </SectionWrapper>
       <Footer />

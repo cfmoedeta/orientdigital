@@ -2,6 +2,9 @@
 footer {
   background-color: $main-grey;
   padding: 2rem;
+  @media (max-width: 1000px) {
+    padding: 1rem;
+  }
   .footer-container {
     display: flex;
     flex-direction: column;
@@ -36,6 +39,9 @@ footer {
         margin: 0 0 1rem 1.5rem;
         @media (max-width: 1000px) {
           margin: 0 0 0.5rem 0;
+        }
+        @media (max-width: 510px) {
+          text-align: center;
         }
         p {
           color: $orange;
@@ -72,6 +78,9 @@ footer {
         @media (max-width: 1000px) {
           margin: 2rem 0 0 0;
         }
+        @media (max-width: 510px) {
+          display: none;
+        }
         a {
           text-align: center;
           font-size: 1.2rem;
@@ -90,9 +99,10 @@ footer {
       }
     }
     .credit {
-      display: flex;
-      align-items: center;
-      justify-content: center;
+      text-align: center;
+      @media (max-width: 510px) {
+        font-size: 0.75rem;
+      }
       span {
         color: $mint-green;
       }

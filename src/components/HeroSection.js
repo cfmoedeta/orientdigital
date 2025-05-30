@@ -1,24 +1,22 @@
-"use client";
 import "@/css/glitch.css";
 import "@/css/HeroSection.css";
+import HeaderWrapper from "./wrappers/header-wrapper";
+import ParagraphWrapper from "./wrappers/paragraph-wrapper";
 
 export default function HeroSection() {
   return (
     <main className="hero-section">
-      <h1
-        className="hero-text hero glitch layers"
-        data-text="Welcome to X Media"
-      >
+      <HeaderWrapper className="hero-text hero glitch layers">
         Welcome to <img src="/x-logo.png" alt="x-media-logo" /> Media
-      </h1>
-      <p className="sec-text">
+      </HeaderWrapper>
+      <ParagraphWrapper>
         We manage the brightest{" "}
         <span style={{ color: "#ff6b35" }}> artists</span>,
         <span style={{ color: "#ff6b35" }}> actors</span>, and{" "}
         <span style={{ color: "#ff6b35" }}>musicians</span>. <br />
         Guiding <span style={{ color: "#ff6b35" }}>talent</span> to the
         spotlight with strategy, passion, and care.
-      </p>
+      </ParagraphWrapper>
     </main>
   );
 }

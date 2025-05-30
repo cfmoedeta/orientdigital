@@ -1,10 +1,11 @@
 import "@/css/Navbar.css";
 import Link from "next/link";
 import Logo from "./Logo";
+import NavbarWrapper from "./wrappers/navbar-wrapper";
 
 export default function Navbar() {
   return (
-    <nav>
+    <NavbarWrapper>
       <div className="navbar-content fit-body">
         <Logo />
         <div className="links">
@@ -14,6 +15,6 @@ export default function Navbar() {
           <Link href={"/#contact"}>Contact</Link>
         </div>
       </div>
-    </nav>
+    </NavbarWrapper>
   );
 }

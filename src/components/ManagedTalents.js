@@ -1,4 +1,5 @@
 import "@/css/ManagedTalents.css";
+import HeaderWrapper from "./wrappers/header-wrapper";
 
 const talents = [
   { name: "Wegz", image: "/talents/wegz.jpg", talent: "Musician" },
@@ -62,9 +63,9 @@ const talents = [
 export default function ManagedTalents() {
   return (
     <section className="talents fit-body">
-      <h1 className="main-heading">
+      <HeaderWrapper className="main-heading">
         Some of the <span style={{ color: "#ff6b35" }}>Talents</span> We Manage
-      </h1>
+      </HeaderWrapper>
       <div className="talents-container">
         {talents.map((talent) => (
           <div key={talent.name} className="talent-card">

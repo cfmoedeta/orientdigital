@@ -1,5 +1,7 @@
+"use client";
 import "@/css/WhatWeDo.css";
 import ServiceCard from "./ServiceCard";
+import { motion } from "framer-motion";
 
 const services = [
   {
@@ -37,7 +39,15 @@ const services = [
 export default function WhatWeDo() {
   return (
     <div className="services fit-body">
-      <h1 className="main-heading">What We Do</h1>
+      <motion.h1
+        className="main-heading"
+        initial={{ opacity: 0, x: -50 }}
+        whileInView={{ opacity: 1, x: 0 }}
+        transition={{ duration: 0.6 }}
+        viewport={{ once: true }}
+      >
+        What We Do
+      </motion.h1>
       <p className="services-intro">
         We don’t just manage talents — we ignite digital fame and craft viral
         moments that break the internet. <br /> Whether you're an actor,

@@ -8,6 +8,7 @@ import Link from "next/link";
 import Logo from "./Logo";
 import { faCircleArrowUp } from "@fortawesome/free-solid-svg-icons";
 import { scrollSpy, animateScroll } from "react-scroll";
+import FooterWrapper from "./wrappers/footer-wrapper";
 
 export default function Footer() {
   scrollSpy.update();
@@ -19,7 +20,7 @@ export default function Footer() {
     });
   };
   return (
-    <footer>
+    <FooterWrapper>
       <div className="footer-container fit-body">
         <FontAwesomeIcon
           className="arrow"
@@ -69,6 +70,6 @@ export default function Footer() {
           reserved.
         </div>
       </div>
-    </footer>
+    </FooterWrapper>
   );
 }

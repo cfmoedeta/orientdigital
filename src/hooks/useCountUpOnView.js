@@ -1,41 +1,52 @@
 import { useEffect } from "react";
 
-export default function useCountUpOnView(
-  className = ".count",
-  threshold = 0.5
-) {
+export default function useCountUpOnView() {
   useEffect(() => {
-    const counters = document.querySelectorAll(className);
+    const counters = document.querySelectorAll(".count");
 
-    const options = {
-      threshold,
-    };
-
-    const animateCount = (el) => {
+    const animate = (el) => {
       const target = +el.getAttribute("data-target");
-      const speed = 200;
-      const update = () => {
-        const current = +el.innerText;
-        const increment = Math.ceil(target / speed);
-        if (current < target) {
-          el.innerText = current + increment;
-          setTimeout(update, 15);
+      const duration = 2000;
+      const startTime = performance.now();
+
+      const updateCount = (currentTime) => {
+        const elapsed = currentTime - startTime;
+        const progress = Math.min(elapsed / duration, 1);
+        el.textContent = Math.floor(progress * target);
+
+        if (progress < 1) {
+          requestAnimationFrame(updateCount);
         } else {
-          el.innerText = target;
+          el.textContent = target; // ensure final value is exact
         }
       };
-      update();
+
+      requestAnimationFrame(updateCount);
     };
 
-    const observer = new IntersectionObserver((entries, observer) => {
-      entries.forEach((entry) => {
-        if (entry.isIntersecting) {
-          animateCount(entry.target);
-          observer.unobserve(entry.target);
-        }
-      });
-    }, options);
+    const observer = new IntersectionObserver(
+      (entries) => {
+        entries.forEach((entry) => {
+          if (entry.isIntersecting) {
+            const el = entry.target;
+            el.textContent = "0"; // Reset to 0 each time
+            animate(el);
+          }
+        });
+      },
+      {
+        threshold: 0.5,
+      }
+    );
 
-    counters.forEach((counter) => observer.observe(counter));
-  }, [className, threshold]);
+    counters.forEach((counter) => {
+      observer.observe(counter);
+    });
+
+    return () => {
+      counters.forEach((counter) => {
+        observer.unobserve(counter);
+      });
+    };
+  }, []);
 }

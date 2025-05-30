@@ -5,16 +5,27 @@ import ManagedTalents from "@/components/ManagedTalents";
 import Navbar from "@/components/Navbar";
 import Numbers from "@/components/Numbers";
 import WhatWeDo from "@/components/WhatWeDo";
+import SectionWrapper from "@/components/wrappers/section-wrapper";
 
 export default function Home() {
   return (
     <>
       <Navbar />
-      <HeroSection />
-      <WhatWeDo />
-      <Numbers />
-      <ManagedTalents />
-      <Contact />
+      <SectionWrapper>
+        <HeroSection />
+      </SectionWrapper>
+      <SectionWrapper>
+        <WhatWeDo />
+      </SectionWrapper>
+      <SectionWrapper>
+        <Numbers />
+      </SectionWrapper>
+      <SectionWrapper>
+        <ManagedTalents />
+      </SectionWrapper>
+      <SectionWrapper>
+        <Contact />
+      </SectionWrapper>
       <Footer />
     </>
   );

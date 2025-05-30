@@ -1,0 +1,27 @@
+@use "variables.scss" as *;
+.about {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 100px auto;
+  .points-list {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    width: 50%;
+    gap: 4rem;
+    .point {
+      display: flex;
+      flex-direction: column;
+      width: 300px;
+      padding-left: 25px;
+      font-size: 1.25rem;
+      margin: 0;
+      border-left: 3px solid $mint-green;
+      h3 {
+        margin: 0;
+        padding: 0;
+      }
+    }
+  }
+}

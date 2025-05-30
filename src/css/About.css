@@ -1,0 +1,26 @@
+.about {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 100px auto;
+}
+.about .points-list {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  width: 50%;
+  gap: 4rem;
+}
+.about .points-list .point {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  padding-left: 25px;
+  font-size: 1.25rem;
+  margin: 0;
+  border-left: 3px solid #34d399;
+}
+.about .points-list .point h3 {
+  margin: 0;
+  padding: 0;
+}

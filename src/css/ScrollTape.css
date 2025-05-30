@@ -1,0 +1,24 @@
+.scroll-tape-wrapper {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  border-top: 3px solid #34d399;
+  border-bottom: 3px solid #34d399;
+  padding: 10px 0;
+  width: calc(100vw - 25px);
+  transform: rotate(-3deg);
+}
+
+.scroll-tape {
+  white-space: nowrap;
+  display: inline-block;
+  color: #34d399;
+  font-weight: 1000;
+  will-change: transform;
+  transition: transform 0.1s ease-out;
+  text-align: center;
+}
+.scroll-tape span {
+  font-size: 5rem;
+  letter-spacing: 2rem;
+}

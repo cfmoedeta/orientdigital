@@ -30,7 +30,23 @@ export default function About() {
     <>
       <ScrollTape />
       <section className="about fit-body">
-        <img src="/earth.gif" alt="" />
+        <div className="cold-planet-wrapper">
+          <div className="circular-text">
+            {`In a Cold Universe,Our Glow Cuts Through the Noise. `
+              .split("")
+              .map((char, i) => (
+                <span key={i} style={{ transform: `rotate(${i * 7}deg)` }}>
+                  {char}
+                </span>
+              ))}
+          </div>
+          <img
+            className="cold-planet"
+            src="/cold-planet.gif"
+            alt="cold-planet-gif"
+          />
+        </div>
+
         <ul className="points-list">
           {points.map((point) => (
             <li key={point.title} className="point">

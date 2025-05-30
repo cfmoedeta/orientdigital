@@ -5,6 +5,12 @@ nav {
   z-index: 1000;
   background-color: rgba(0, 0, 0, 0.6);
   transition: background-color 0.3s ease;
+  .mobile-nav-opener {
+    display: none;
+  }
+  .mobile-nav-container {
+    display: none;
+  }
   .navbar-content {
     display: flex;
     align-items: center;
@@ -26,6 +32,33 @@ nav {
           color: $mint-green;
           scale: 1.2;
           letter-spacing: 0.15rem;
+        }
+      }
+    }
+  }
+}
+@media (max-width: 1000px) {
+  nav {
+    .navbar-content {
+      .links {
+        display: none;
+      }
+      .mobile-nav-opener {
+        display: flex;
+        cursor: pointer;
+        position: fixed;
+        padding: 20px;
+        top: 20px;
+        right: 7%;
+        z-index: 199;
+        pointer-events: auto !important;
+        color: transparent;
+      }
+      .mobile-nav-container {
+        display: flex;
+        a {
+          color: white;
+          text-decoration: none;
         }
       }
     }

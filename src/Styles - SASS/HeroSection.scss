@@ -1,21 +1,53 @@
 .hero-section {
-  position: relative;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  height: calc(100vh - 90px); // removing navbar height
-  overflow: hidden;
+  min-height: calc(100vh - 90px); // removing navbar height
+  @media (max-width: 1050px) {
+    flex-direction: column-reverse;
+    margin: 50px auto 0 auto;
+    min-height: calc(100vh - 200px);
+  }
   .left-hero {
     display: flex;
     flex-direction: column;
     width: 50%;
+    @media (max-width: 1050px) {
+      width: 100%;
+    }
     .hero-text {
       font-size: 4rem;
       font-weight: 1000;
       z-index: 1;
+      margin: 0;
+      @media (max-width: 1860px) {
+        font-size: 3rem;
+      }
+      @media (max-width: 1480px) {
+        font-size: 2.5rem;
+      }
+      @media (max-width: 1290px) {
+        font-size: 2rem;
+      }
+      @media (max-width: 1050px) {
+        align-self: center;
+      }
+      @media (max-width: 550px) {
+        font-size: 1.5rem;
+      }
       img {
         margin-left: 10px;
         width: 50px;
+        @media (max-width: 1480px) {
+          width: 40px;
+          margin-left: 5px;
+        }
+        @media (max-width: 1290px) {
+          width: 30px;
+        }
+        @media (max-width: 550px) {
+          width: 20px;
+        }
       }
     }
     .sec-text {
@@ -23,18 +55,34 @@
       filter: drop-shadow(2px 2px 4px rgba(0, 0, 0, 0.7));
       font-size: 2rem;
       z-index: 1;
+      @media (max-width: 1290px) {
+        font-size: 1.5rem;
+      }
+      @media (max-width: 550px) {
+        font-size: 1rem;
+        align-self: center;
+        text-align: center;
+      }
     }
   }
 }
 .earth-wrapper {
   position: relative;
-  width: 50%;
+  width: 100%;
   aspect-ratio: 1;
   display: flex;
   align-items: center;
   justify-content: center;
   max-width: 600px;
-
+  @media (max-width: 1480px) {
+    max-width: 500px;
+  }
+  @media (max-width: 1260px) {
+    max-width: 400px;
+  }
+  @media (max-width: 550px) {
+    max-width: 300px;
+  }
   .earth {
     width: 100%;
     border-radius: 50%;
@@ -56,6 +104,16 @@
       transform-origin: 0 300px;
       font-size: 1.5rem;
       font-weight: 800;
+      @media (max-width: 1480px) {
+        transform-origin: 0 250px;
+      }
+      @media (max-width: 1260px) {
+        transform-origin: 0 200px;
+      }
+      @media (max-width: 550px) {
+        transform-origin: 0 150px;
+        font-size: 1rem;
+      }
     }
   }
 }

@@ -2,36 +2,68 @@
   position: relative;
   display: flex;
   align-items: center;
-  flex-direction: column;
-  justify-content: center;
+  justify-content: space-between;
   height: calc(100vh - 90px);
   overflow: hidden;
 }
-.hero-section::before {
-  content: "";
-  position: absolute;
-  inset: 0;
-  background-image: url("/hero-image.webp");
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  filter: blur(3px);
-  z-index: -1;
-  transform: scale(1.05);
+.hero-section .left-hero {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
 }
-.hero-section .hero-text {
+.hero-section .left-hero .hero-text {
   font-size: 4rem;
   font-weight: 1000;
   z-index: 1;
 }
-.hero-section .hero-text img {
+.hero-section .left-hero .hero-text img {
   margin-left: 10px;
   width: 50px;
 }
-.hero-section .sec-text {
+.hero-section .left-hero .sec-text {
   font-weight: 800;
   filter: drop-shadow(2px 2px 4px rgba(0, 0, 0, 0.7));
   font-size: 2rem;
-  text-align: center;
   z-index: 1;
+}
+
+.earth-wrapper {
+  position: relative;
+  width: 50%;
+  aspect-ratio: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-width: 600px;
+}
+.earth-wrapper .earth {
+  width: 100%;
+  border-radius: 50%;
+  z-index: 2;
+}
+.earth-wrapper .circular-text {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: 3;
+  animation: rotateOrbit 40s linear infinite;
+  transform-origin: center;
+  pointer-events: none;
+}
+.earth-wrapper .circular-text span {
+  position: absolute;
+  left: 50%;
+  top: 0;
+  transform-origin: 0 300px;
+  font-size: 1.5rem;
+  font-weight: 800;
+}
+
+@keyframes rotateOrbit {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
 }

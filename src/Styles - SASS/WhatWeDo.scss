@@ -2,8 +2,10 @@
 .services {
   .services-intro {
     font-size: 1.5rem;
-
     text-align: center;
+    @media (max-width: 550px) {
+      font-size: 1rem;
+    }
   }
   .services-container {
     display: flex;

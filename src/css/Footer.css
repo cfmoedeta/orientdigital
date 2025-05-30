@@ -12,22 +12,49 @@ footer .footer-container .data-contact {
   justify-content: space-between;
   margin-bottom: 2rem;
 }
+@media (max-width: 1000px) {
+  footer .footer-container .data-contact {
+    flex-direction: column;
+    align-items: center;
+  }
+}
 footer .footer-container .company-data {
   display: flex;
   flex-direction: column;
   justify-content: center;
   width: 45%;
 }
+@media (max-width: 1000px) {
+  footer .footer-container .company-data {
+    width: 100%;
+  }
+}
 footer .footer-container .contact-info {
   display: flex;
   flex-direction: column;
   width: 45%;
 }
+@media (max-width: 1000px) {
+  footer .footer-container .contact-info {
+    width: 100%;
+    align-items: center;
+  }
+}
 footer .footer-container .contact-info .direct-contact {
   margin: 0 0 1rem 1.5rem;
 }
+@media (max-width: 1000px) {
+  footer .footer-container .contact-info .direct-contact {
+    margin: 0 0 0.5rem 0;
+  }
+}
 footer .footer-container .contact-info .direct-contact p {
   color: #ff6b35;
+}
+@media (max-width: 1000px) {
+  footer .footer-container .contact-info .direct-contact p {
+    text-align: center;
+  }
 }
 footer .footer-container .contact-info .social-media-icons {
   display: flex;
@@ -54,6 +81,11 @@ footer .footer-container .contact-info .site-map {
   align-items: center;
   margin: 3rem 0 1rem 0;
   gap: 20px;
+}
+@media (max-width: 1000px) {
+  footer .footer-container .contact-info .site-map {
+    margin: 2rem 0 0 0;
+  }
 }
 footer .footer-container .contact-info .site-map a {
   text-align: center;
@@ -91,7 +123,9 @@ footer .arrow {
 }
 @media (max-width: 1000px) {
   footer .arrow {
-    top: 5%;
+    top: 0%;
+    width: 50px;
+    height: 50px;
     right: -3%;
   }
 }

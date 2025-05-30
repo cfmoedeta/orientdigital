@@ -6,26 +6,42 @@ footer {
     display: flex;
     flex-direction: column;
     position: relative;
-
     .data-contact {
       display: flex;
       justify-content: space-between;
       margin-bottom: 2rem;
+      @media (max-width: 1000px) {
+        flex-direction: column;
+        align-items: center;
+      }
     }
     .company-data {
       display: flex;
       flex-direction: column;
       justify-content: center;
       width: 45%;
+      @media (max-width: 1000px) {
+        width: 100%;
+      }
     }
     .contact-info {
       display: flex;
       flex-direction: column;
       width: 45%;
+      @media (max-width: 1000px) {
+        width: 100%;
+        align-items: center;
+      }
       .direct-contact {
         margin: 0 0 1rem 1.5rem;
+        @media (max-width: 1000px) {
+          margin: 0 0 0.5rem 0;
+        }
         p {
           color: $orange;
+          @media (max-width: 1000px) {
+            text-align: center;
+          }
         }
       }
       .social-media-icons {
@@ -53,6 +69,9 @@ footer {
         align-items: center;
         margin: 3rem 0 1rem 0;
         gap: 20px;
+        @media (max-width: 1000px) {
+          margin: 2rem 0 0 0;
+        }
         a {
           text-align: center;
           font-size: 1.2rem;
@@ -90,7 +109,9 @@ footer {
     animation: up 1s linear infinite;
     z-index: 10;
     @media (max-width: 1000px) {
-      top: 5%;
+      top: 0%;
+      width: 50px;
+      height: 50px;
       right: -3%;
     }
   }

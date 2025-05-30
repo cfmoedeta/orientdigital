@@ -1,5 +1,6 @@
 .services .services-intro {
   font-size: 1.5rem;
+  text-align: center;
 }
 .services .services-container {
   display: flex;
@@ -10,18 +11,26 @@
   margin: 50px 0;
 }
 .services .service-card {
+  position: relative;
+  padding: 0.2rem;
+  border-radius: 12px;
+  text-align: center;
+  background-color: #202022;
+  width: 270px;
+  height: 320px;
+  overflow: hidden;
+  z-index: 0;
+}
+.services .service-card .service-data {
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  padding: 1rem;
-  border-radius: 12px;
-  text-align: center;
+  width: 270px;
+  height: 320px;
   background-color: #202022;
-  width: 250px;
-  height: 300px;
-  border: 2px solid transparent;
-  transition: 0.3s;
+  padding: 1rem;
+  box-sizing: border-box;
 }
 .services .service-card img {
   width: 80px;
@@ -29,9 +38,18 @@
 .services .service-card:hover img {
   animation: wiggle 0.6s ease;
 }
-.services .service-card:hover {
-  transition: 0.3s;
-  border: 2px solid white;
+.services .service-card::before {
+  content: "";
+  position: absolute;
+  top: -4px;
+  left: -4px;
+  right: -4px;
+  bottom: -4px;
+  border-radius: 14px;
+  background: conic-gradient(from 0deg, transparent, #34d399, transparent 30%, #34d399, transparent 60%, #34d399, transparent 90%, #34d399, transparent);
+  animation: moveGlow 10s linear infinite;
+  filter: blur(10px);
+  z-index: -1;
 }
 
 @keyframes wiggle {
@@ -52,5 +70,13 @@
   }
   100% {
     transform: rotate(0deg);
+  }
+}
+@keyframes moveGlow {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
   }
 }

@@ -2,12 +2,14 @@ import "@/css/ManagedTalents.css";
 import { talents } from "@/components/ManagedTalents";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
+import ParticlesBackground from "@/components/ParticlesBackground";
 
 export default function page() {
   return (
     <>
       <Navbar />
       <main className="talents fit-body" style={{ marginTop: "0" }}>
+        <ParticlesBackground />
         <h1 className="main-heading">
           Our Managed <span style={{ color: "#ff6b35" }}>Talents</span>
         </h1>

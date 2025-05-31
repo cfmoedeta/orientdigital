@@ -99,6 +99,7 @@
   align-items: center;
   justify-content: center;
   max-width: 600px;
+  overflow: hidden;
 }
 @media (max-width: 1480px) {
   .earth-wrapper {
@@ -113,6 +114,11 @@
 @media (max-width: 550px) {
   .earth-wrapper {
     max-width: 300px;
+  }
+}
+@media (max-width: 450px) {
+  .earth-wrapper {
+    max-width: 280px;
   }
 }
 .earth-wrapper .earth {
@@ -151,6 +157,11 @@
   .earth-wrapper .circular-text span {
     transform-origin: 0 150px;
     font-size: 1rem;
+  }
+}
+@media (max-width: 450px) {
+  .earth-wrapper .circular-text span {
+    transform-origin: 0 140px;
   }
 }
 

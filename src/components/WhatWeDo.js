@@ -2,41 +2,20 @@
 import "@/css/WhatWeDo.css";
 import ServiceCard from "./ServiceCard";
 import { motion } from "framer-motion";
-
-const services = [
-  {
-    title: "Talent Management",
-    description:
-      "Guiding actors, musicians, and influencers to grow their brand, secure partnerships, and manage public relations.",
-    image: "./services-icons/talent-management.png",
-  },
-  {
-    title: "YouTube Growth & Management",
-    description:
-      "Helping YouTubers optimize their channels, create content strategies, and grow loyal audiences.",
-    image: "/services-icons/youtube-growth.png",
-  },
-  {
-    title: "Brand Strategy & Consulting",
-    description:
-      "Developing tailored brand strategies that resonate with your audience and build long-term success.",
-    image: "/services-icons/consulting.png",
-  },
-  {
-    title: "Influencer Partnerships",
-    description:
-      "Connecting influencers with brands through authentic collaborations and sponsorship deals.",
-    image: "/services-icons/influencer-partnership.png",
-  },
-  {
-    title: "Social Media Marketing",
-    description:
-      "Creating and managing campaigns that boost your reach and engagement on platforms like Instagram, TikTok, and Facebook.",
-    image: "/services-icons/social-media-marketing.png",
-  },
-];
+import { useEffect, useState } from "react";
 
 export default function WhatWeDo() {
+  const [services, setServices] = useState([]);
+  const [loading, setLoading] = useState(true);
+  useEffect(() => {
+    fetch("/servicesData.json")
+      .then((response) => response.json())
+      .then((data) => setServices(data))
+      .then(setLoading(false));
+  }, []);
+  if (loading) {
+    return <div>Loading..</div>;
+  }
   return (
     <div className="services fit-body">
       <motion.h1

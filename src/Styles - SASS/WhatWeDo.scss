@@ -15,8 +15,17 @@
     gap: 30px;
     margin: 50px 0;
   }
+  a {
+    text-decoration: none;
+    .know-more {
+      text-decoration: underline;
+      color: white;
+      margin: 0;
+    }
+  }
   .service-card {
     .service-data {
+      color: white;
       display: flex;
       align-items: center;
       justify-content: center;

@@ -1,0 +1,37 @@
+[
+  {
+    "title": "Talent Management",
+    "description": "Guiding actors, musicians, and influencers to grow their brand, secure partnerships, and manage public relations.",
+    "icon": "/services/services-icons/talent-management.png",
+    "image": "/services/talent-management.png",
+    "details": "Our talent management service goes beyond simple representation. We work closely with each client to build a strategic roadmap for their career, aligning personal strengths with market opportunities. From media training and brand positioning to contract negotiations and scheduling, we ensure every talent has the tools and support they need to thrive in a competitive industry. Whether it's landing a film role, growing a music career, or elevating an influencer's digital presence, we provide comprehensive guidance every step of the way."
+  },
+  {
+    "title": "YouTube Growth & Management",
+    "description": "Helping YouTubers optimize their channels, create content strategies, and grow loyal audiences.",
+    "icon": "/services/services-icons/youtube-growth.png",
+    "image": "/services/youtube-growth.png",
+    "details": "We specialize in building high-performing YouTube channels that attract and retain engaged audiences. Our team helps creators refine their content strategy, improve video SEO, optimize thumbnails and titles, and interpret performance analytics. We also manage upload schedules, brand collaborations, and community engagement. From newcomers looking to monetize their channels to established creators seeking scale, our hands-on approach delivers measurable growth and long-term sustainability."
+  },
+  {
+    "title": "Brand Strategy & Consulting",
+    "description": "Developing tailored brand strategies that resonate with your audience and build long-term success.",
+    "icon": "/services/services-icons/consulting.png",
+    "image": "/services/consulting.png",
+    "details": "Your brand is more than just a logo—it's your identity, your voice, and your promise to your audience. Our brand strategy and consulting service helps you define and refine this identity to stand out in crowded markets. We begin by conducting in-depth audience research, competitive analysis, and positioning workshops. From there, we develop a clear brand architecture, tone of voice, and messaging frameworks to align all communications with your vision. Whether launching a new brand or revitalizing an existing one, we guide you with insights and strategic direction."
+  },
+  {
+    "title": "Influencer Partnerships",
+    "description": "Connecting influencers with brands through authentic collaborations and sponsorship deals.",
+    "icon": "/services/services-icons/influencer-partnership.png",
+    "image": "/services/influencer-partnership.jpg",
+    "details": "We create meaningful partnerships between influencers and brands that drive real engagement and results. Our team identifies the right talent for each campaign, ensuring alignment in values, aesthetics, and target audiences. From negotiation and contract management to content planning and performance tracking, we handle the entire lifecycle of the collaboration. The goal is to craft campaigns that feel genuine, deliver impact, and foster long-term relationships between creators and the brands they represent."
+  },
+  {
+    "title": "Social Media Marketing",
+    "description": "Creating and managing campaigns that boost your reach and engagement on platforms like Instagram, TikTok, and Facebook.",
+    "icon": "/services/services-icons/social-media-marketing.png",
+    "image": "/services/social-media-marketing.jpg",
+    "details": "Social media is a powerful tool when leveraged strategically. Our social media marketing service includes content creation, calendar planning, platform optimization, and paid campaign management. We tailor each campaign to your goals—whether that’s growing your follower base, increasing engagement, or driving traffic and conversions. Using data-driven insights, we continually refine content performance and audience targeting to maximize ROI. We also stay ahead of trends, so your brand remains fresh, relevant, and connected."
+  }
+]

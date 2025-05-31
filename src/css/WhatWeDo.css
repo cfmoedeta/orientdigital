@@ -15,6 +15,14 @@
   gap: 30px;
   margin: 50px 0;
 }
+.services a {
+  text-decoration: none;
+}
+.services a .know-more {
+  text-decoration: underline;
+  color: white;
+  margin: 0;
+}
 .services .service-card {
   position: relative;
   padding: 0.2rem;
@@ -27,6 +35,7 @@
   z-index: 0;
 }
 .services .service-card .service-data {
+  color: white;
   display: flex;
   align-items: center;
   justify-content: center;

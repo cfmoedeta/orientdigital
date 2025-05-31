@@ -69,6 +69,10 @@ export default function Footer() {
           © {new Date().getFullYear()} <span>&nbsp; X Media</span>. All rights
           reserved.
         </div>
+        <div className="policy">
+          <Link href="/terms-of-use">TERMS OF USE</Link>
+          <Link href="/privacy-policy">PRIVACY POLICY</Link>
+        </div>
       </div>
     </FooterWrapper>
   );

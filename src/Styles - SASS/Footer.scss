@@ -107,6 +107,17 @@ footer {
         color: $mint-green;
       }
     }
+    .policy {
+      display: flex;
+      margin-top: 20px;
+      gap: 20px;
+      align-items: center;
+      justify-content: center;
+      a {
+        color: white;
+        font-size: 15px;
+      }
+    }
   }
   .arrow {
     position: absolute;

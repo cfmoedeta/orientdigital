@@ -1,0 +1,32 @@
+.privacy-details {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  margin-bottom: 50px;
+}
+.privacy-details .right {
+  display: flex;
+  flex-direction: column;
+  width: 49%;
+}
+.privacy-details .left {
+  flex-direction: column;
+  display: flex;
+  width: 49%;
+}
+@media (max-width: 750px) {
+  .privacy-details {
+    justify-content: center;
+    flex-direction: column;
+  }
+  .privacy-details .right {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+  .privacy-details .left {
+    flex-direction: column;
+    display: flex;
+    width: 100%;
+  }
+}

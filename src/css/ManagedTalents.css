@@ -1,5 +1,7 @@
 .talents {
   margin: 50px auto;
+  display: flex;
+  flex-direction: column;
 }
 .talents .talents-container {
   display: flex;
@@ -91,5 +93,34 @@
 @media (max-width: 1050px) {
   .talents .talents-container .talent-card .card-back {
     font-size: 0.75rem;
+  }
+}
+.talents .browse-talents-button {
+  text-decoration: none;
+  margin-top: 20px;
+  font-size: 25px;
+  align-self: center;
+  width: 240px;
+  font-weight: 800;
+  color: #ff6b35;
+  padding: 10px;
+  background-color: #15265b;
+  border-radius: 6px;
+  cursor: pointer;
+  border: 2px solid #ff6b35;
+  box-shadow: 8px 8px 0 hsl(0, 0%, 20%);
+  transition: 0.2s;
+}
+.talents .browse-talents-button:hover {
+  box-shadow: 3px 3px 0 hsl(0, 0%, 20%);
+  background-color: #fb7185;
+  color: #15265b;
+  border: 2px solid #15265b;
+}
+@media (max-width: 570px) {
+  .talents .browse-talents-button {
+    font-size: 20px;
+    padding: 5px;
+    width: 200px;
   }
 }

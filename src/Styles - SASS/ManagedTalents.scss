@@ -1,6 +1,8 @@
 @use "variables.scss" as *;
 .talents {
   margin: 50px auto;
+  display: flex;
+  flex-direction: column;
   .talents-container {
     display: flex;
     flex-wrap: wrap;
@@ -83,6 +85,33 @@
           font-size: 0.75rem;
         }
       }
+    }
+  }
+  .browse-talents-button {
+    text-decoration: none;
+    margin-top: 20px;
+    font-size: 25px;
+    align-self: center;
+    width: 240px;
+    font-weight: 800;
+    color: $orange;
+    padding: 10px;
+    background-color: $dark-blue;
+    border-radius: 6px;
+    cursor: pointer;
+    border: 2px solid $orange;
+    box-shadow: 8px 8px 0 hsl(0, 0%, 20%);
+    transition: 0.2s;
+    &:hover {
+      box-shadow: 3px 3px 0 hsl(0, 0%, 20%);
+      background-color: $bubblegum-pink;
+      color: $dark-blue;
+      border: 2px solid $dark-blue;
+    }
+    @media (max-width: 570px) {
+      font-size: 20px;
+      padding: 5px;
+      width: 200px;
     }
   }
 }

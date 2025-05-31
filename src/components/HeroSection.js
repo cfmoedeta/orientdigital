@@ -13,12 +13,13 @@ export default function HeroSection() {
           Welcome to <img src="/x-logo.png" alt="x-media-logo" /> Media
         </HeaderWrapper>
         <ParagraphWrapper>
-          We manage the brightest{" "}
-          <span style={{ color: "#ff6b35" }}> artists</span>,
-          <span style={{ color: "#ff6b35" }}> actors</span>, and{" "}
-          <span style={{ color: "#ff6b35" }}>musicians</span>. <br />
-          Guiding <span style={{ color: "#ff6b35" }}>talent</span> to the
-          spotlight with strategy, passion, and care.
+          At XMedia, we manage top{" "}
+          <span style={{ color: "#ff6b35" }}>influencers</span>,{" "}
+          <span style={{ color: "#ff6b35" }}>actors</span>,{" "}
+          <span style={{ color: "#ff6b35" }}>creators</span>, and{" "}
+          <span style={{ color: "#ff6b35" }}>rising talents</span> across the
+          Middle East. From brand deals to full-scale content production — we
+          build careers, grow influence, and create impact.
         </ParagraphWrapper>
       </div>
       <div className="earth-wrapper">

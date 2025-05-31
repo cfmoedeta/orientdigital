@@ -12,7 +12,7 @@ export default function page() {
           This Privacy Policy explains how X Media UAE ("we", "us", or "our")
           collects, uses, and shares your personal information.
         </p>
-        <div className="privacy-details">
+        <div className="legal-details">
           <div className="right">
             <h2>1. Information We Collect</h2>
             <p>
@@ -167,7 +167,7 @@ export default function page() {
             <p>
               <strong>X Media UAE</strong>
               <br />
-              Email: info@xmediauae.com
+              Email: <a href="mailto:info@xmediauae.com">info@xmediauae.com</a>
             </p>
 
             <p>Last updated: March 14, 2025</p>

@@ -6,8 +6,8 @@
   border-top: 3px solid $mint-green;
   border-bottom: 3px solid $mint-green;
   padding: 10px 0;
-  width: calc(100vw - 25px);
   transform: rotate(-3deg);
+  overflow-x: clip;
 }
 
 .scroll-tape {
@@ -21,5 +21,9 @@
   span {
     font-size: 5rem;
     letter-spacing: 2rem;
+    @media (max-width: 1000px) {
+      font-size: 2rem;
+      letter-spacing: 0.3rem;
+    }
   }
 }

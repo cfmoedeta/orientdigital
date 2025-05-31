@@ -11,7 +11,7 @@ export default function ScrollTape() {
     function handleScroll() {
       const st = window.pageYOffset || document.documentElement.scrollTop;
       const direction = st > lastScrollTop.current ? "down" : "up";
-      const step = 10;
+      const step = 5;
 
       if (direction === "down") {
         currentOffset.current -= step;

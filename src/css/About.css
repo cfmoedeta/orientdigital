@@ -2,36 +2,81 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin: 100px auto;
+  margin: 50px auto;
+}
+@media (max-width: 1000px) {
+  .about {
+    flex-direction: column-reverse;
+  }
 }
 .about .points-list {
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
   list-style: none;
-  width: 50%;
-  gap: 4rem;
+  width: 70%;
+  gap: 2rem;
+  box-sizing: border-box;
+}
+@media (max-width: 1000px) {
+  .about .points-list {
+    width: 100%;
+  }
 }
 .about .points-list .point {
   display: flex;
   flex-direction: column;
   width: 300px;
-  padding-left: 25px;
+  padding-left: 15px;
   font-size: 1.25rem;
   margin: 0;
   border-left: 3px solid #34d399;
+  box-sizing: border-box;
+}
+@media (min-width: 1000px) and (max-width: 1390px) {
+  .about .points-list .point {
+    width: 95%;
+  }
+}
+@media (max-width: 1000px) {
+  .about .points-list .point {
+    font-size: 1rem;
+  }
+}
+@media (max-width: 750px) {
+  .about .points-list .point {
+    width: 95%;
+    padding-left: 10px;
+  }
 }
 .about .points-list .point h3 {
   margin: 0;
   padding: 0;
 }
+@media (max-width: 1000px) {
+  .about .points-list .point h3 {
+    font-size: 1.2rem;
+  }
+}
+.about .points-list .point p {
+  width: 90%;
+  margin-bottom: 0;
+}
 .about .cold-planet-wrapper {
   position: relative;
-  width: 50%;
+  width: 100%;
   aspect-ratio: 1;
   display: flex;
   align-items: center;
   justify-content: center;
   max-width: 400px;
+  margin-top: 50px;
+  overflow: hidden;
+}
+@media (max-width: 500px) {
+  .about .cold-planet-wrapper {
+    max-width: 280px;
+  }
 }
 .about .cold-planet-wrapper .cold-planet {
   width: 100%;
@@ -54,4 +99,10 @@
   transform-origin: 0 200px;
   font-size: 1.4rem;
   font-weight: 800;
+}
+@media (max-width: 500px) {
+  .about .cold-planet-wrapper .circular-text span {
+    transform-origin: 0 140px;
+    font-size: 1.1rem;
+  }
 }

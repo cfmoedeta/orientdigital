@@ -9,19 +9,19 @@ export default function Numbers() {
   return (
     <section className="numbers-section fit-body" id="numbers">
       <div className="number-card">
-        <h1 className="count" data-target="234">
+        <h1 className="count" data-target="634">
           0
         </h1>
         <p>Services Provided</p>
       </div>
       <div className="number-card">
-        <h1 className="count" data-target="55">
+        <h1 className="count" data-target="122">
           0
         </h1>
         <p>Happy Clients</p>
       </div>
       <div className="number-card">
-        <h1 className="count" data-target="27">
+        <h1 className="count" data-target="31">
           0
         </h1>
         <p>Managed Talent</p>

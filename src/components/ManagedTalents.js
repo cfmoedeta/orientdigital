@@ -31,8 +31,8 @@ export const talents = [
     talent: "Musician",
   },
   {
-    name: "Carolina Karam",
-    image: "/talents/carolina-karam.jpg",
+    name: "Haifa Wahbe",
+    image: "/talents/haifa-wahbe.jpg",
     talent: "Musician",
   },
   {
@@ -57,13 +57,18 @@ export const talents = [
     talent: "Musician",
   },
   {
+    name: "Mosatafa Amar",
+    image: "/talents/mostafa-amar.jpg",
+    talent: "Musician",
+  },
+  {
     name: "Kenzy Turky",
     image: "/talents/kenzy-turky.jpg",
     talent: "Musician",
   },
   {
-    name: "Mosatafa Amar",
-    image: "/talents/mostafa-amar.jpg",
+    name: "Carolina Karam",
+    image: "/talents/carolina-karam.jpg",
     talent: "Musician",
   },
   {

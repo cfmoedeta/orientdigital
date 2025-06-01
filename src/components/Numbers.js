@@ -15,13 +15,13 @@ export default function Numbers() {
         <p>Services Provided</p>
       </div>
       <div className="number-card">
-        <h1 className="count" data-target="122">
+        <h1 className="count" data-target="152">
           0
         </h1>
         <p>Happy Clients</p>
       </div>
       <div className="number-card">
-        <h1 className="count" data-target="31">
+        <h1 className="count" data-target="117">
           0
         </h1>
         <p>Managed Talent</p>

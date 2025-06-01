@@ -69,6 +69,7 @@ const Navigation = ({ isOpen, setIsOpen }) => (
       { name: "About", path: "/#about" },
       { name: "Services", path: "/#services" },
       { name: "Talents", path: "/#talents" },
+      { name: "Brands", path: "/#brands" },
       { name: "Contact", path: "/#contact" },
     ].map((i, index) => (
       <MenuItem i={i} key={index} isOpen={isOpen} setIsOpen={setIsOpen} />
@@ -192,7 +193,7 @@ const container = {
   right: "5%",
   zIndex: "99",
   maxWidth: "100%",
-  height: 320,
+  height: 350,
   backgroundColor: "var(--accent)",
   borderRadius: 10,
   overflow: "hidden",

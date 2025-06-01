@@ -1,0 +1,13 @@
+.brands {
+  margin: 100px auto;
+  .carousel {
+    margin-top: 20px;
+    will-change: transform;
+    transform: translateZ(0);
+
+    img {
+      margin: 5px;
+      border-radius: 12px;
+    }
+  }
+}

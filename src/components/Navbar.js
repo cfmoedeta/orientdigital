@@ -14,6 +14,7 @@ export default function Navbar() {
           <Link href={"/#about"}>About</Link>
           <Link href={"/#services"}>Services</Link>
           <Link href={"/#talents"}>Talents</Link>
+          <Link href={"/#brands"}>Brands</Link>
           <Link href={"/#contact"}>Contact</Link>
         </div>
       </div>

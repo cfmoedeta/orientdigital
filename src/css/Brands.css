@@ -1,0 +1,12 @@
+.brands {
+  margin: 100px auto;
+}
+.brands .carousel {
+  margin-top: 20px;
+  will-change: transform;
+  transform: translateZ(0);
+}
+.brands .carousel img {
+  margin: 5px;
+  border-radius: 12px;
+}

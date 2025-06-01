@@ -51,6 +51,26 @@ export const talents = [
     image: "/talents/reda-elbahrawy.jpg",
     talent: "Musician",
   },
+  {
+    name: "Ahmed Saad",
+    image: "/talents/ahmed-saad.jpg",
+    talent: "Musician",
+  },
+  {
+    name: "Kenzy Turky",
+    image: "/talents/kenzy-turky.jpg",
+    talent: "Musician",
+  },
+  {
+    name: "Mosatafa Amar",
+    image: "/talents/mostafa-amar.jpg",
+    talent: "Musician",
+  },
+  {
+    name: "Ruby",
+    image: "/talents/ruby.webp",
+    talent: "Musician",
+  },
   { name: "Wegz", image: "/talents/wegz.jpg", talent: "Musician" },
   {
     name: "Yasmina El-Abd",

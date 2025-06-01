@@ -8,6 +8,7 @@ import Contact from "@/components/Contact";
 import React, { useEffect, useState } from "react";
 import { useRouter } from "next/navigation";
 import LoadingSpinner from "@/components/loading-spinner";
+import ParticlesBackground from "@/components/ParticlesBackground";
 
 export default function ServicePage({ params }) {
   const router = useRouter();
@@ -53,6 +54,7 @@ export default function ServicePage({ params }) {
   return (
     <>
       <Navbar />
+      <ParticlesBackground />
       <main className="service-page">
         <h1 className="main-heading">{requestedService.title}</h1>
         <nav aria-label="breadcrumb" className="breadcrumb">

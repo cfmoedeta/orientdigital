@@ -45,11 +45,13 @@ export default function ClientServicePage({ service }) {
   if (!requestedService) {
     return <div>Service not found</div>;
   }
-  console.log(requestedService);
+
   return (
     <>
+      <div style={{ zIndex: "-99", position: "fixed" }}>
+        <ParticlesBackground />
+      </div>
       <Navbar />
-      <ParticlesBackground />
       <main className="service-page">
         <h1 className="main-heading">{requestedService.title}</h1>
         <nav aria-label="breadcrumb" className="breadcrumb">

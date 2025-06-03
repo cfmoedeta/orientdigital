@@ -11,9 +11,25 @@ export default function Contact() {
     reset,
   } = useForm();
 
-  const onSubmit = (data) => {
-    console.log("Form submitted:", data);
-    reset();
+  const onSubmit = async (data) => {
+    try {
+      const response = await fetch("https://formspree.io/f/xpwrznpd", {
+        method: "POST",
+        headers: {
+          Accept: "application/json",
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify(data),
+      });
+
+      if (response.ok) {
+        reset();
+      } else {
+        console.error("Formspree error:", await response.json());
+      }
+    } catch (error) {
+      console.error("Error submitting form:", error);
+    }
   };
 
   return (

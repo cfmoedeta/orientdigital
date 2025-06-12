@@ -60,7 +60,7 @@
   right: -4px;
   bottom: -4px;
   border-radius: 14px;
-  background: conic-gradient(from 0deg, transparent, #34d399, transparent 30%, #34d399, transparent 60%, #34d399, transparent 90%, #34d399, transparent);
+  background: conic-gradient(from 0deg, transparent, #aa00ff, transparent 30%, #aa00ff, transparent 60%, #aa00ff, transparent 90%, #aa00ff, transparent);
   animation: moveGlow 10s linear infinite;
   filter: blur(10px);
   z-index: -1;

@@ -44,9 +44,11 @@ footer {
           text-align: center;
         }
         p {
-          color: $orange;
-          @media (max-width: 1000px) {
-            text-align: center;
+          a {
+            color: $dark-cyan;
+            @media (max-width: 1000px) {
+              text-align: center;
+            }
           }
         }
       }
@@ -66,7 +68,7 @@ footer {
           &:hover {
             scale: 1.2;
             letter-spacing: 0.15rem;
-            color: $mint-green;
+            color: $active-purple;
           }
         }
       }
@@ -93,7 +95,7 @@ footer {
             color: white;
             scale: 1.2;
             letter-spacing: 0.15rem;
-            color: $mint-green;
+            color: $active-purple;
           }
         }
       }
@@ -104,7 +106,7 @@ footer {
         font-size: 0.75rem;
       }
       span {
-        color: $mint-green;
+        color: $active-purple;
       }
     }
     .policy {

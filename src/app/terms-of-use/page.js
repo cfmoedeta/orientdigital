@@ -10,12 +10,12 @@ export default function page() {
         <h1 className="main-heading">TERMS OF USE AGREEMENT</h1>
         <p style={{ textAlign: "center", fontWeight: "1000" }}>
           This Terms of Use Agreement (“Agreement”) governs your use of the
-          websites, platforms, services, and any digital tools operated by X
-          Media UAE (“X Media,” “we,” “our,” or “us”). By accessing or using our
-          websites, platforms, or services (collectively, the “Services”), you
-          (“you” or “User”) agree to be bound by the terms of this Agreement. If
-          you do not agree to this Agreement, you must not access or use the
-          Services.
+          websites, platforms, services, and any digital tools operated by
+          Orient Digital (“Orient,” “we,” “our,” or “us”). By accessing or using
+          our websites, platforms, or services (collectively, the “Services”),
+          you (“you” or “User”) agree to be bound by the terms of this
+          Agreement. If you do not agree to this Agreement, you must not access
+          or use the Services.
         </p>
         <div className="legal-details">
           <div className="right">
@@ -31,9 +31,9 @@ export default function page() {
 
             <h2>1. Description of Service</h2>
             <p>
-              X Media UAE is a talent management and digital media company that
-              offers tools and platforms for creators, artists, and brands to
-              manage their media presence, promote their work, and engage
+              Orient Digital is a talent management and digital media company
+              that offers tools and platforms for creators, artists, and brands
+              to manage their media presence, promote their work, and engage
               audiences. Our services may include custom profile pages,
               promotional campaign tools, performance analytics, and other
               digital solutions to help talent and partners thrive in today’s
@@ -71,19 +71,19 @@ export default function page() {
               <li>Upload any content that you do not have rights to use.</li>
             </ul>
             <p>
-              X Media UAE reserves the right to monitor, suspend, or terminate
-              access to the Services if you violate these terms or applicable
-              law.
+              Orient Digital reserves the right to monitor, suspend, or
+              terminate access to the Services if you violate these terms or
+              applicable law.
             </p>
 
             <h2>4. User Content and Licensing</h2>
             <p>
               You retain ownership of any original content you upload or submit,
-              but by doing so, you grant X Media UAE a worldwide, non-exclusive,
-              royalty-free license to use, reproduce, display, and distribute
-              such content solely for the purpose of operating and promoting the
-              Services. You represent that you have all necessary rights to
-              grant this license.
+              but by doing so, you grant Orient Digital a worldwide,
+              non-exclusive, royalty-free license to use, reproduce, display,
+              and distribute such content solely for the purpose of operating
+              and promoting the Services. You represent that you have all
+              necessary rights to grant this license.
             </p>
 
             <h2>5. Privacy and Data</h2>
@@ -96,7 +96,7 @@ export default function page() {
 
             <h2>6. Communications</h2>
             <p>
-              You agree that X Media UAE may contact you via email or other
+              You agree that Orient Digital may contact you via email or other
               provided contact methods to communicate information about your
               account, updates to the Services, promotions, and related matters.
               You may opt out of marketing emails at any time, though we may
@@ -114,7 +114,7 @@ export default function page() {
           <div className="left">
             <h2>8. Metrics and Analytics</h2>
             <p>
-              X Media UAE may collect data about your use of our Services,
+              Orient Digital may collect data about your use of our Services,
               including usage statistics and performance metrics, to improve our
               offerings and user experience. We retain full ownership and rights
               to these aggregated, anonymized analytics.
@@ -132,7 +132,7 @@ export default function page() {
             <h2>10. Intellectual Property</h2>
             <p>
               All logos, trademarks, design elements, and platform technology
-              are owned by X Media UAE or its licensors. You may not copy,
+              are owned by Orient Digital or its licensors. You may not copy,
               modify, distribute, or reverse-engineer any part of our Services
               without express written permission.
             </p>
@@ -140,15 +140,15 @@ export default function page() {
             <p>
               The Services are provided “as is” without warranties of any kind.
               We do not guarantee the accuracy, completeness, or reliability of
-              any content or metrics. X Media UAE disclaims all warranties,
+              any content or metrics. Orient Digital disclaims all warranties,
               express or implied, including merchantability, fitness for a
               particular purpose, and non-infringement.
             </p>
 
             <h2>12. Limitation of Liability</h2>
             <p>
-              To the fullest extent permitted by law, X Media UAE shall not be
-              liable for any indirect, incidental, special, consequential, or
+              To the fullest extent permitted by law, Orient Digital shall not
+              be liable for any indirect, incidental, special, consequential, or
               punitive damages arising from your use of the Services. Our total
               liability for any claim shall not exceed the amount paid by you
               (if any) for the Services during the past 6 months.
@@ -156,8 +156,8 @@ export default function page() {
 
             <h2>13. Indemnification</h2>
             <p>
-              You agree to indemnify, defend, and hold harmless X Media UAE and
-              its affiliates from any claims, damages, or legal proceedings
+              You agree to indemnify, defend, and hold harmless Orient Digital
+              and its affiliates from any claims, damages, or legal proceedings
               arising from your use of the Services, your violation of this
               Agreement, or your infringement of any rights of a third party.
             </p>
@@ -165,9 +165,8 @@ export default function page() {
             <h2>14. Governing Law</h2>
             <p>
               This Agreement shall be governed by and construed in accordance
-              with the laws of the United Arab Emirates. Any disputes arising
-              out of or relating to this Agreement shall be resolved in the
-              courts of Dubai.
+              with the laws of Egypt. Any disputes arising out of or relating to
+              this Agreement shall be resolved in the courts of Cairo.
             </p>
 
             <h2>15. Termination</h2>
@@ -181,9 +180,11 @@ export default function page() {
             <h2>16. Contact Us</h2>
             <p>
               For questions about these Terms of Use, you can contact us at:
-              <br />X Media UAE
               <br />
-              Email: <a href="mailto:info@xmediauae.com">info@xmediauae.com</a>
+              Orient Digital
+              <br />
+              Email:{" "}
+              <a href="mailto:info@orientdigital.net">info@orientdigital.net</a>
             </p>
           </div>
         </div>

@@ -3,8 +3,8 @@
   position: relative;
   overflow: hidden;
   width: 100%;
-  border-top: 3px solid $mint-green;
-  border-bottom: 3px solid $mint-green;
+  border-top: 3px solid $active-purple;
+  border-bottom: 3px solid $active-purple;
   padding: 10px 0;
   transform: rotate(-3deg);
   overflow-x: clip;
@@ -13,7 +13,7 @@
 .scroll-tape {
   white-space: nowrap;
   display: inline-block;
-  color: $mint-green;
+  color: $active-purple;
   font-weight: 1000;
   will-change: transform;
   transition: transform 0.1s ease-out;

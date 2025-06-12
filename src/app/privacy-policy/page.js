@@ -9,7 +9,7 @@ export default function page() {
       <main className="fit-body">
         <h1 className="main-heading">Privacy Policy</h1>
         <p style={{ textAlign: "center", fontWeight: "1000" }}>
-          This Privacy Policy explains how X Media UAE ("we", "us", or "our")
+          This Privacy Policy explains how Orient Digital ("we", "us", or "our")
           collects, uses, and shares your personal information.
         </p>
         <div className="legal-details">
@@ -145,11 +145,11 @@ export default function page() {
 
             <h2>8. International Visitors</h2>
             <p>
-              If you are visiting our Site from outside the United Arab
-              Emirates, please be aware that your data may be transferred to,
-              stored, and processed in the UAE or other countries. We take
-              appropriate measures to ensure your data is treated securely and
-              in accordance with this Privacy Policy.
+              If you are visiting our Site from outside Egypt, please be aware
+              that your data may be transferred to, stored, and processed in
+              Egypt or other countries. We take appropriate measures to ensure
+              your data is treated securely and in accordance with this Privacy
+              Policy.
             </p>
 
             <h2>9. Changes to This Policy</h2>
@@ -165,9 +165,10 @@ export default function page() {
               practices, please contact us at:
             </p>
             <p>
-              <strong>X Media UAE</strong>
+              <strong>Orient Digital</strong>
               <br />
-              Email: <a href="mailto:info@xmediauae.com">info@xmediauae.com</a>
+              Email:{" "}
+              <a href="mailto:info@orientdigital.net">info@orientdigital.net</a>
             </p>
 
             <p>Last updated: March 14, 2025</p>

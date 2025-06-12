@@ -2,7 +2,7 @@
 .contact {
   display: flex;
   flex-direction: column;
-  background-color: $mint-green;
+  background-color: $active-purple;
   align-items: center;
   justify-content: center;
   padding: 2rem;
@@ -10,9 +10,9 @@
   margin: 6rem auto;
   max-width: 800px;
   box-sizing: border-box;
-  filter: drop-shadow(0 0 20px $mint-green);
+  filter: drop-shadow(0 0 20px $active-purple);
   @media (max-width: 550px) {
-    filter: drop-shadow(0 0 10px $mint-green);
+    filter: drop-shadow(0 0 10px $active-purple);
   }
   h1,
   p {

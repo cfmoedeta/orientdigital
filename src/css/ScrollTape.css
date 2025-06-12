@@ -2,8 +2,8 @@
   position: relative;
   overflow: hidden;
   width: 100%;
-  border-top: 3px solid #34d399;
-  border-bottom: 3px solid #34d399;
+  border-top: 3px solid #aa00ff;
+  border-bottom: 3px solid #aa00ff;
   padding: 10px 0;
   transform: rotate(-3deg);
   overflow-x: clip;
@@ -12,7 +12,7 @@
 .scroll-tape {
   white-space: nowrap;
   display: inline-block;
-  color: #34d399;
+  color: #aa00ff;
   font-weight: 1000;
   will-change: transform;
   transition: transform 0.1s ease-out;

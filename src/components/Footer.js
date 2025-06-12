@@ -43,7 +43,11 @@ export default function Footer() {
           <div className="contact-info">
             <div className="direct-contact">
               <h2>Email or social – we're here to connect</h2>
-              <p>info@xmediauae.com</p>
+              <p>
+                <a className="mail-to" href="mailto:info@orientdigital.net">
+                  info@orientdigital.net
+                </a>
+              </p>
             </div>
             <div className="social-media-icons">
               {" "}
@@ -71,8 +75,8 @@ export default function Footer() {
           <Link href="/privacy-policy">PRIVACY POLICY</Link>
         </div>
         <div className="credit">
-          © {new Date().getFullYear()} <span>&nbsp; X Media</span>. All rights
-          reserved.
+          © {new Date().getFullYear()} <span>&nbsp; Orient Digital</span>. All
+          rights reserved.
         </div>
       </div>
     </FooterWrapper>

@@ -1,18 +1,18 @@
 import "@/css/global.css";
 
 export const metadata = {
-  title: "X Media | Talent Management",
+  title: "Orient Digital | Talent Management",
   description:
-    "X Media Company is a leading talent management agency representing artists, actors, and musicians. We build careers, craft brands, and connect talent with opportunity.",
+    "Orient Digital Company is a leading talent management agency representing artists, actors, and musicians. We build careers, craft brands, and connect talent with opportunity.",
   openGraph: {
-    title: "X Media | Talent Management",
+    title: "Orient Digital | Talent Management",
     description:
-      "X Media Company is a leading talent management agency representing artists, actors, and musicians.",
-    url: "https://xmediauae.com",
-    siteName: "X Media",
+      "Orient Digital Company is a leading talent management agency representing artists, actors, and musicians.",
+    url: "https://orientdigital.net",
+    siteName: "Orient Digital",
     images: [
       {
-        url: "https://xmediauae.com/og-image.png",
+        url: "https://orientdigital.net/og-image.png",
         width: 1200,
         height: 630,
       },
@@ -22,10 +22,10 @@ export const metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "X Media | Talent Management",
+    title: "Orient Digital | Talent Management",
     description:
       "Representing top artists, actors, and musicians in the industry.",
-    images: ["https://xmediauae.com/og-image.png"],
+    images: ["https://orientdigital.net/og-image.png"],
   },
 };
 

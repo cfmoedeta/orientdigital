@@ -10,14 +10,14 @@ export default function HeroSection() {
       <ParticlesBackground />
       <div className="left-hero">
         <HeaderWrapper className="hero-text hero glitch layers">
-          Welcome to <img src="/x-logo.png" alt="x-media-logo" /> Media
+          Welcome to <img src="/logo.png" alt="x-media-logo" />
         </HeaderWrapper>
         <ParagraphWrapper>
-          At XMedia, we manage top{" "}
-          <span style={{ color: "#ff6b35" }}>influencers</span>,{" "}
-          <span style={{ color: "#ff6b35" }}>actors</span>,{" "}
-          <span style={{ color: "#ff6b35" }}>creators</span>, and{" "}
-          <span style={{ color: "#ff6b35" }}>rising talents</span> across the
+          At Orient Digital, we manage top{" "}
+          <span style={{ color: "#2aa198" }}>influencers</span>,{" "}
+          <span style={{ color: "#2aa198" }}>actors</span>,{" "}
+          <span style={{ color: "#2aa198" }}>creators</span>, and{" "}
+          <span style={{ color: "#2aa198" }}>rising talents</span> across the
           Middle East. From brand deals to full-scale content production — we
           build careers, grow influence, and create impact.
         </ParagraphWrapper>

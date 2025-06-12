@@ -1,7 +1,7 @@
 .contact {
   display: flex;
   flex-direction: column;
-  background-color: #34d399;
+  background-color: #aa00ff;
   align-items: center;
   justify-content: center;
   padding: 2rem;
@@ -9,11 +9,11 @@
   margin: 6rem auto;
   max-width: 800px;
   box-sizing: border-box;
-  filter: drop-shadow(0 0 20px #34d399);
+  filter: drop-shadow(0 0 20px #aa00ff);
 }
 @media (max-width: 550px) {
   .contact {
-    filter: drop-shadow(0 0 10px #34d399);
+    filter: drop-shadow(0 0 10px #aa00ff);
   }
 }
 .contact h1,

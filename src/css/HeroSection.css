@@ -58,18 +58,17 @@
 }
 @media (max-width: 1480px) {
   .hero-section .left-hero .hero-text img {
-    width: 40px;
-    margin-left: 5px;
+    width: 150px;
   }
 }
 @media (max-width: 1290px) {
   .hero-section .left-hero .hero-text img {
-    width: 30px;
+    width: 130px;
   }
 }
 @media (max-width: 550px) {
   .hero-section .left-hero .hero-text img {
-    width: 20px;
+    width: 100px;
   }
 }
 .hero-section .left-hero .sec-text {

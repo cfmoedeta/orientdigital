@@ -36,8 +36,9 @@ export default function ScrollTape() {
     <div className="scroll-tape-wrapper">
       <div className="scroll-tape" id="scrollTape" ref={tapeRef}>
         <span>
-          Why XMedia ? Why XMedia ? Why X Media ? Why X Media ? Why XMedia ? Why
-          XMedia ? Why X Media ? Why X Media ?
+          Why Orient Digital ? Why Orient Digital ? Why Orient Digital ? Why
+          Orient Digital ? Why Orient Digital ? Why Orient Digital ? Why Orient
+          Digital ? Why Orient Digital ?
         </span>
       </div>
     </div>

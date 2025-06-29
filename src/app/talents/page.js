@@ -11,7 +11,7 @@ export default function page() {
       <main className="talents fit-body" style={{ marginTop: "0" }}>
         <ParticlesBackground />
         <h1 className="main-heading">
-          Our Managed <span style={{ color: "#ff6b35" }}>Talents</span>
+          Our Managed <span style={{ color: "#2aa198" }}>Talents</span>
         </h1>
         <div className="talents-container">
           {talents.map((talent) => (
@@ -22,7 +22,7 @@ export default function page() {
                 </div>
                 <div className="card-back">
                   <h1>{talent.name}</h1>
-                  <h3 style={{ color: "#34d399" }}>{talent.talent}</h3>
+                  <h3 style={{ color: "#aa00ff" }}>{talent.talent}</h3>
                 </div>
               </div>
             </div>

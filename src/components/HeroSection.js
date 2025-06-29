@@ -10,7 +10,7 @@ export default function HeroSection() {
       <ParticlesBackground />
       <div className="left-hero">
         <HeaderWrapper className="hero-text hero glitch layers">
-          Welcome to <img src="/logo.png" alt="x-media-logo" />
+          Welcome to <img src="/logo.png" alt="orient-digital-logo" />
         </HeaderWrapper>
         <ParagraphWrapper>
           At Orient Digital, we manage top{" "}

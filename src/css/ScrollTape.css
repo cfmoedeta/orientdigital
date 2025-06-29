@@ -20,11 +20,11 @@
 }
 .scroll-tape span {
   font-size: 5rem;
-  letter-spacing: 2rem;
+  letter-spacing: 0.5rem;
 }
 @media (max-width: 1000px) {
   .scroll-tape span {
     font-size: 2rem;
-    letter-spacing: 0.3rem;
+    letter-spacing: 0.1rem;
   }
 }

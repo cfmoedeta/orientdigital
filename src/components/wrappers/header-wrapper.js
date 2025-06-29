@@ -7,7 +7,7 @@ export default function HeaderWrapper({ children, className = "", ...rest }) {
     <motion.h1
       className={className}
       {...rest}
-      data-text="Welcome to X Media"
+      data-text="Welcome to Orient"
       initial={{ opacity: 0, x: -50 }}
       whileInView={{ opacity: 1, x: 0 }}
       transition={{ duration: 0.6 }}

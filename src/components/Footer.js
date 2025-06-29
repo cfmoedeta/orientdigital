@@ -1,6 +1,6 @@
 "use client";
 import "@/css/Footer.css";
-import { faInstagram } from "@fortawesome/free-brands-svg-icons";
+import { faInstagram, faYoutube } from "@fortawesome/free-brands-svg-icons";
 import { faXTwitter } from "@fortawesome/free-brands-svg-icons";
 import { faFacebook } from "@fortawesome/free-brands-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
@@ -51,14 +51,26 @@ export default function Footer() {
             </div>
             <div className="social-media-icons">
               {" "}
-              <Link href={"/"} target="_blank" rel="noopener noreferrer">
+              <Link
+                href={"https://www.facebook.com/Orient.Digital1/"}
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 <FontAwesomeIcon icon={faFacebook} />
               </Link>
-              <Link href={"/"} target="_blank" rel="noopener noreferrer">
-                <FontAwesomeIcon icon={faXTwitter} />
-              </Link>
-              <Link href={"/"} target="_blank" rel="noopener noreferrer">
+              <Link
+                href={"https://www.instagram.com/orient_digital1"}
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 <FontAwesomeIcon icon={faInstagram} />
+              </Link>
+              <Link
+                href={"https://www.youtube.com/@orient.digital1"}
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <FontAwesomeIcon icon={faYoutube} />
               </Link>
             </div>
             <div className="site-map">

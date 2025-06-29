@@ -2,6 +2,7 @@ import MovingCarousel from "./MovingCarousel";
 import "@/css/Brands.css";
 
 const brands = [
+  { name: "Dawlat El Quran", image: "/brands/country-quran.png" },
   { name: "Four Seasons Hotel", image: "/brands/4-seasons.jpg" },
   { name: "360", image: "/brands/360.jpg" },
   { name: "Artist House", image: "/brands/artist-house.jpg" },

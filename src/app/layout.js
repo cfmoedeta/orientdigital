@@ -34,6 +34,8 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
 <head>
+<title>Orient Digital | Talent Management</title>
+<link rel="icon" href="/favicon.ico" />
   <Script id="facebook-pixel" strategy="afterInteractive">
     {`
       !function(f,b,e,v,n,t,s)

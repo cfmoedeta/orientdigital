@@ -147,9 +147,7 @@ export const talents = [
     talent: "Influencer",
   },
   {
-    name: "Raouf El-Sherif",
-    image: "/talents/raouf-elsherif.jpg",
-    talent: "Influencer",
+    
   },
 ];
 

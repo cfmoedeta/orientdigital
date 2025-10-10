@@ -120,33 +120,7 @@ export const talents = [
     talent: "Religious Influencer",
   },
   {
-    name: "Ziam Amasha",
-    image: "/talents/ziad-amasha.jpg",
-    talent: "Religious Influencer",
-  },
-  {
-    name: "Yasmina El-Abd",
-    image: "/talents/yasmina-elabd.jpg",
-    talent: "Actress",
-  },
-  { name: "Taha Desouky", image: "/talents/taha-desouky.jpg", talent: "Actor" },
-  { name: "Ahmed Dash", image: "/talents/ahmed-dash.jpg", talent: "Actor" },
-  {
-    name: "Huda El-Mufti",
-    image: "/talents/huda-elmufti.jpg",
-    talent: "Actress",
-  },
-  {
-    name: "Mohammed Tarek",
-    image: "/talents/mohammed-tarek.jpeg",
-    talent: "Influencer",
-  },
-  {
-    name: "Karim Dash",
-    image: "/talents/karim-dash.jpeg",
-    talent: "Influencer",
-  },
-  {
+
     
   },
 ];

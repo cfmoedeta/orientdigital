@@ -90,16 +90,6 @@ export const talents = [
     talent: "Religious Influencer",
   },
   {
-    name: "Eyad EL-Mogy",
-    image: "/talents/eyad-elmogy.jpg",
-    talent: "YouTuber",
-  },
-  {
-    name: "Mahmoud Hegazy",
-    image: "/talents/mahmoud-hegazy.jpg",
-    talent: "Actor",
-  },
-  {
     name: "Mohamed Tifly",
     image: "/talents/mohamed-tifly.jpg",
     talent: "Religious Influencer",

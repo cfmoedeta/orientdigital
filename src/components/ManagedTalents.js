@@ -70,26 +70,6 @@ export const talents = [
     talent: "Religious Influencer",
   },
   {
-    name: "Amira El-Badrawy",
-    image: "/talents/amira-elbdrawy.jpg",
-    talent: "Religious Influencer",
-  },
-  {
-    name: "Ashrakat Anwar",
-    image: "/talents/ashrakat-anwar.jpg",
-    talent: "Religious Influencer",
-  },
-  {
-    name: "Basmala Ahmed & Sama Ahmed",
-    image: "/talents/basmala-sama.jpg",
-    talent: "Religious Influencers",
-  },
-  {
-    name: "Jannah Choir",
-    image: "/talents/jannah-corral.jpg",
-    talent: "Religious Influencer",
-  },
-  {
     name: "Mohamed Tifly",
     image: "/talents/mohamed-tifly.jpg",
     talent: "Religious Influencer",
@@ -98,11 +78,6 @@ export const talents = [
     name: "Radwan Mahmoud",
     image: "/talents/radwan-mahmoud.jpg",
     talent: "Religious Influencer",
-  },
-  {
-    name: "Tasneem El-Aidy",
-    image: "/talents/tasneem-elaidy.jpg",
-    talent: "Influencer",
   },
   {
     name: "AbdAllah Mostafa",

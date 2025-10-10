@@ -109,10 +109,6 @@ export const talents = [
     image: "/talents/abdallah-mostafa.jpg",
     talent: "Religious Influencer",
   },
-  {
-
-    
-  },
 ];
 
 export default function ManagedTalents() {
